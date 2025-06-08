@@ -21,18 +21,16 @@ import com.cognizant.core.DriverScript;
 import com.cognizant.core.TestConfigurations;
 import com.cognizant.framework.selenium.SeleniumTestParameters;
 
-public class SeleniumPracticeScenario extends TestConfigurations {
+public class MyWebsiteScenario extends TestConfigurations {
 
 	@Test(dataProvider = "ChromeHeadless", dataProviderClass = TestConfigurations.class)
-	public void seleniumPracticeTest(SeleniumTestParameters testParameters) {
+	public void MyWebsiteTest(SeleniumTestParameters testParameters) {
 
-		testParameters.setCurrentTestDescription("Test for Selenium Practice entry test");
+		testParameters.setCurrentTestDescription("Test for My Website");
 
 		DriverScript driverScript = new DriverScript(testParameters);
 		driverScript.driveTestExecution();
 
 		tearDownTestRunner(testParameters, driverScript);
 	}
-
-
 }

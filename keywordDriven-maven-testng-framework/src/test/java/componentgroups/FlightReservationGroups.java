@@ -19,8 +19,6 @@ import com.cognizant.core.DriverScript;
 import com.cognizant.core.ReusableLibrary;
 import com.cognizant.core.ScriptHelper;
 
-import businesscomponents.FlightReservationComponents;
-
 
 /**
  * Class for storing component groups related to the flight reservation functionality
@@ -36,13 +34,6 @@ public class FlightReservationGroups extends ReusableLibrary {
 	}
 	
 	public void findAndBookFlights() {
-		FlightReservationComponents flightReservationComponents =
-											new FlightReservationComponents(scriptHelper);
 		
-		flightReservationComponents.findFlights();
-		flightReservationComponents.selectFlights();
-		flightReservationComponents.bookFlights();
-		flightReservationComponents.verifyBooking();
-		flightReservationComponents.backToFlights();
 	}
 }

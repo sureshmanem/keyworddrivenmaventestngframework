@@ -1,0 +1,33 @@
+Test Case 1: Verify Website Launch
+Step 1: Open a browser and navigate to https://www.sureshmanem.com
+Expected Result: Website loads successfully without errors.
+Test Case 2: Verify Header Text
+Step 1: Observe the header section at the top of the page.
+Expected Result: Header displays "Suresh Manem" (or similar correct text).
+Test Case 3: Verify Navigation Links
+Step 1: Check for navigation links: Home, About, Skills, Projects, Contact.
+Step 2: Click each link.
+Expected Result: Each link scrolls/navigates to the correct section on the page.
+Test Case 4: Verify Download CV Link
+Step 1: Locate the "Download CV" link/button.
+Step 2: Click the link.
+Expected Result: CV file download starts or the CV opens in a new tab.
+Test Case 5: Verify About Section
+Step 1: Scroll to the About section.
+Expected Result: Section is visible and displays relevant information about Suresh Manem.
+Test Case 6: Verify Skills Section
+Step 1: Scroll to the Skills section.
+Expected Result: Section is visible and lists relevant skills.
+Test Case 7: Verify Projects Section
+Step 1: Scroll to the Projects section.
+Expected Result: Section is visible and displays project details.
+Test Case 8: Verify Contact Section
+Step 1: Scroll to the Contact section.
+Expected Result: Section is visible and displays contact information or a contact form.
+Test Case 9: Verify Social Media Links
+Step 1: Locate social media icons/links (e.g., LinkedIn, GitHub).
+Step 2: Click each link.
+Expected Result: Each link opens the correct social media profile in a new tab.
+Test Case 10: Verify Responsiveness
+Step 1: Resize the browser window or open the site on a mobile device.
+Expected Result: Website layout adjusts correctly for different screen sizes.

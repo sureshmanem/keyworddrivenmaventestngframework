@@ -93,7 +93,7 @@
 				<activeByDefault>true</activeByDefault>
 			</activation>
 			<properties>
-				<testNG.suiteXmlFile>src/test/resources/testng_sanity.xml</testNG.suiteXmlFile>
+				<testNG.suiteXmlFile>src/test/resources/testng_website.xml</testNG.suiteXmlFile>
 			</properties>
 			<build>
 				<pluginManagement>
